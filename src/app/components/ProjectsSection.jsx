@@ -12,7 +12,7 @@ const projectsData = [
     image: "/images/projects/start-travel.png",
     tag: ["Todos", "Grupal"],
     gitUrl: "https://github.com/5tart-travel/5tart-travel-front",
-    previewUrl: "/",
+    previewUrl: "https://5tart-travel-frontend.vercel.app/",
   },
   {
     id: 2,
