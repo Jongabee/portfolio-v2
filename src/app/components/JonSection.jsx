@@ -8,8 +8,8 @@ import Link from "next/link";
 const JonSection = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/cv/cv-Jonatan-Mosqueda.pdf";  
-    link.download = "cv-Jonatan-Mosqueda.pdf"; 
+    link.href = "/cv/cv-Jonatan-Mosqueda.pdf";
+    link.download = "cv-Jonatan-Mosqueda.pdf";
     link.click();
   };
   return (
@@ -19,19 +19,15 @@ const JonSection = () => {
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="col-span-8 sm:col-span-7 place-self-center text-center sm:text-left">
+          className="col-span-8 sm:col-span-7 place-self-center text-center sm:text-left"
+        >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-4xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r lg:text-7xl from-primary-400 to-secondary-600">
               Soy Jona{""}
             </span>
             <br />
             <TypeAnimation
-              sequence={[
-                "Desarrollador ",
-                1500,
-                "Diseñador UI/UX",
-                1000,
-              ]}
+              sequence={["Desarrollador ", 1500, "Diseñador UI/UX", 1000]}
               wrapper="span"
               speed={50}
               repeat={Infinity}
@@ -41,7 +37,6 @@ const JonSection = () => {
             Gusto en saludarte...
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center sm:justify-start">
-            
             <Link
               href="/#contact"
               className="px-1 py-1 w-full sm:w-auto rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3 sm:mt-0"

@@ -7,6 +7,15 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
+    title: "5tart-Travel",
+    description: "Proyecto de tours",
+    image: "/images/projects/start-travel.png",
+    tag: ["Todos", "Grupal"],
+    gitUrl: "https://github.com/5tart-travel/5tart-travel-front",
+    previewUrl: "/",
+  },
+  {
+    id: 2,
     title: "Huellas De Esperanza",
     description: "Proyecto grupal con Nest y Next",
     image: "/images/projects/Huellas.png",
@@ -15,7 +24,7 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Ecommerce",
     description: "Proyecto venta de celulares con Express y React",
     image: "/images/projects/ecommerce.png",
@@ -24,7 +33,7 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Turnos",
     description: "Gestor de turnos",
     image: "/images/projects/turnos.png",
@@ -33,14 +42,14 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Pelis",
     description: "Posteo de peliculas",
     image: "/images/projects/pelis.png",
     tag: ["Todos", "Individual"],
     gitUrl: "https://github.com/pi-rym/PM2-Jongabee",
     previewUrl: "/",
-  }
+  },
 ];
 
 const ProjectsSection = () => {
