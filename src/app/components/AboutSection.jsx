@@ -23,7 +23,6 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Soy Henry</li>
         <li>Universidad Tecnológica Nacional</li>
       </ul>
     ),
