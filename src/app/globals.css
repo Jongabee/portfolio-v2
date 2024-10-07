@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  color: rgb(0, 0, 0); /* Color del texto en negro */
+  background-color: #606060; /* Fondo base blanco */
+  background-image: radial-gradient(
+    circle,
+    black 10%,
+    /* Lunares negros */ transparent 11%
+  );
+  background-size: 10px 10px; /* Tamaño del patrón de lunares */
+}
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -24,4 +39,4 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} */
