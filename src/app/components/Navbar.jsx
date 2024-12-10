@@ -24,7 +24,7 @@ const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100 border-b border-[#33353F]">
+    <nav className="top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100 border-b border-[#33353F]">
       <div className="container mx-auto flex items-center justify-between py-2 px-4 lg:py-4">
         <div className="flex-1 flex items-center justify-start md:hidden">
           {!navbarOpen ? (
